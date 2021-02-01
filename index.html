@@ -1,0 +1,96 @@
+<html lang="pt-BR">
+<!--Hipertext makup language: Linguagem de Marcação + linguagem no qual vou trabalhar-->
+
+<head>
+    <!--Cabeçalho, onde irei inserir configurações-->
+    <meta charset="UTF-8">
+    <!-- Meta dado que referencia o proprio documento. Codificação universal. Configurações de caractere-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Define se nosso conteudo vai ser responsivel em qualquer dispositivo ( tamanho de tela)-->
+    <title>Dev.finances$</title>
+    <!--Título da Página-->
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+
+<body>
+    <!--Dentro de body vai todo conteúdo-->
+    <header>
+        <h1 id="logo"> Dev.finances$</h1>
+        <!--tag responsavel por fazer testos grandes.-->
+    </header>
+
+    <!--tag semantica que causa estruturas e significados-->
+    <main Class="Container">
+        <section id="balance">
+            <h2>Balanço</h2>
+
+            <div class="card">
+                <!--contêiner para separar e colocar coisas dentro-->
+                <h2>Entradas</h2>
+                <p> R$ 5.000,000</p>
+            </div>
+
+            <div class="card">
+                <h3>Saídas</h3>
+                <p>R$ 2.000,00</p>
+            </div>
+
+            <div class="card total">
+                <h3>Entradas</h3>
+                <p>R$ 3.000,00</p>
+            </div>
+
+        </section>
+
+        <section id="transaction">
+            <h2>Transações</h2>
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                        <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="description">Luz</td>
+                        <td class="expense">R$ 500,00</td>
+                        <td class="date">23/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td class="description">Criação website</td>
+                        <td class="income">R$ 5.000,00</td>
+                        <td class="date">23/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td class="description">Internet</td>
+                        <td class="expense">R$ 200,00</td>
+                        <td class="date">23/01/2021</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+
+
+    </main>
+    <!--tag semântica que causa estruturas e significados-->
+    <footer Class="Container">
+        <p>Dev.finances$</p>
+    </footer>
+    <!--tag semântica que causa estruturas e significados -->
+
+
+
+
+
+
+
+</body>
+</head>
+
+</html>
